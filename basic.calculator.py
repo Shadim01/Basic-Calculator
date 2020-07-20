@@ -24,17 +24,17 @@ num1 = float(input("First Number  :"))
 num2 = float(input("Second Number :"))
 
 if select == 1:
-    print("Total :",num1,"+",num2,"=",add(num1,num2))
+    print(f"Total : {num1}+{num2} = {add(num1,num2)}")
 
 elif select == 2:
-    print("Total :",num1,"-",num2,"=",substract(num1,num2))
+    print(f"Total :{num1} - {num2} = {substract(num1,num2)}")
 
 elif select == 3:
-    print("Total :",num1,"*",num2,"=",multi(num1,num2))
-
+    print(f"Total : {num1}*{num2} = {multi(num1,num2)}")
 elif select == 4:
-    print("Total :",num1,"/",num2,"=",divide(num1,num2))
+    print(f"Total : {num1}/{num2}= {divide(num1,num2)}")
 
 elif select >=5:
     print("\033[1m" + "\n\tEror selection" + "\033[0m")
+
 
